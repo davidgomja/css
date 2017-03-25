@@ -1,0 +1,112 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .desc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+    <h2>Dropdown CSS Image</h2>
+    <p>Move the mouse over the image below to open the dropdown.</p>
+
+    <div class="dropdown">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRJdsaZLn6gzWqJJwjFhRxZJzc11mS3fmPcSH0jyqWlCFpgy2In" alt="Trolltunga Norway" width="100" height="50">
+        <div class="dropdown-content">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRJdsaZLn6gzWqJJwjFhRxZJzc11mS3fmPcSH0jyqWlCFpgy2In" alt="Trolltunga Norway" width="300" height="200">
+            <div class="desc">
+                Beautiful Trolltunga, Norway
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+    </head>
+    <body>
+
+        <h2>Dropdown Menu</h2><hr>
+        <p>Move the mouse over the button to open the dropdown menu.</p>
+
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="#">class 1</a>
+                <a href="#">class 2</a>
+                <a href="#">class 3</a>
+            </div>
+        </div>
+
+        <p><strong>Note:</strong> We use href="#" for links. In web site it will be URLs.</p>
+
+    </body>
+</html>
